@@ -1,0 +1,14 @@
+export const birdSing = (): any => {
+  let sound = new Audio(
+    'https://m110.syncusercontent.com/mfs-60:a327dcdc259fae81ec6ffcc239afd868=============================/p/bird.mp3?allowdd=0&datakey=nXQt+jcgFTcBVkOHDn8BjunrwL8U5Q2PNwpb8jWPA8XmXpxf4kgr34xBkQO4/GIhJmsyJKKHvrBSEuNWOUykwk5T3/neW6OsVF5ptUQLir2CPMsQVs0B5SMCS+I5PqdbE3TxvWhXuFnkMAzc1vFzyuW2SEloXwPAjUcWFRbMzTSy596wYOnLmYT+lVlfe2GwNDYFViXNuk0ZJATkFckkhJYaeb/+LUKabWL0+MRAMdS+10u9UiFQbBEhQ5xkQGpimvgpOb82QSeAVSWeoLTLmewA3ZG+4aCeFHepi51fatb5jPX6mKeUoTkDhjYyczhU3r4m7M2yMJrfV3iaEj0hJg&engine=ln-1.10.10&errurl=rXS86eXf1iR0klWZfUSe8P8/FYBMyFz//Cz4uY5C4xrFLFMpXm3wj3gPE7ufho8waG/ic1y+7dXbJHpYBai8P4V+ScP6qmOiggJy/92kuKNGPgL5JiMj2da7/CHozWSLAt/JyLLtE5ChGccjZy48IvoFwhr0xJNp38CyDZ45p47to99SKi7X59xk77A9C7P6YTeIRhiXz0FtsfoYr9XAu67aKdi83mp8ACo7HQfh9M9/+77XUsaZou40ViPpGTTk9N2hE6k8bbF7uRBTeGjAnYlrut3IhY+01K2BDfeU2T8gF34ilNOBQvNldgKXv6F1gXqEXb/XHnllcjs+d8Mrcw==&header1=Q29udGVudC1UeXBlOiBhdWRpby9tcGVn&header2=Q29udGVudC1EaXNwb3NpdGlvbjogaW5saW5lOyBmaWxlbmFtZT0iYmlyZC5tcDMiO2ZpbGVuYW1lKj1VVEYtOCcnYmlyZC5tcDM7&ipaddress=3307638242&linkcachekey=389e152a0&linkoid=1386450004&mode=101&sharelink_id=10408803240004&timestamp=1631678548127&uagent=fa279be41d2212716951c01a844d17a9daa8a7a4&signature=6cb962b53b28b7184d94b1c2cf31c3e8a374b56f&cachekey=60:a327dcdc259fae81ec6ffcc239afd868============================='
+  );
+  sound.volume = 0.2;
+  return sound.play();
+};
+export const SwitcherClick = (): any => {
+  let sound = new Audio(
+    'https://m110.syncusercontent.com/mfs-60:7b66c6a4486ea56004219ca8e079a4bc=============================/p/click.mp3?allowdd=0&datakey=fOeF4nLTmMe4AYbeDdlvYQg1m5mmetG1JUVPiswSOm10Gw++OJm9tbFlGR/Q82Cbxjx0OGeIo9i5Q6cbdomzaQ41lUDqe5N61u1QnmsgnljT9I8hsBTHlRyU8nbcHZI4Fo93H8t/M+t0okm5FH6rpdJJbWW27eV/ZTVmA82pWdxbtX864tPWBeTqG8dIoy0JHpvSjmA5EuZ2Ov8Wx6ldKnNkpvycmUQg5N+v8mTtZ/37kjRFDy5aGf4RsjQivRzX/ASRgjggxblRpcN7zAF4/y7DaSdLu0mL3WH24fZh4/ZXim5N0GHhXyticZhxEpwNK4FaVXo+YfBWNYDlEWBekw&engine=ln-1.10.10&errurl=ht8+b7gbhBZgGwTtGYS6t7EXsQS/ptq/42XxOekfyzFg5WnAoeuI3mymF7rnWtj7jogHyGPn5DXozlELdIlg0/LY3MYj8z9ITJZvkpGsg8LrLIRREv7KqKrEYeA+DN4AUydh5bgGbLgYS+lMoHGAK2Yq+2+QSjowH19HJ35tppot0hCUezYuZ/4gHrWUna7+/87ij8AsklOLfX9fhLYRNfBnv4pPy1ZdQBegmc48DzeZSF2zgqWoUoqm8gqjVw88OgF1wFNxvEBpPLK3l44OG44fHKdSBkC3OYaa6pb99TJ12p1w3lglsvC/Z70VGLc968UWAXnhAYH7i392Ay8QlA==&header1=Q29udGVudC1UeXBlOiBhdWRpby9tcGVn&header2=Q29udGVudC1EaXNwb3NpdGlvbjogaW5saW5lOyBmaWxlbmFtZT0iY2xpY2subXAzIjtmaWxlbmFtZSo9VVRGLTgnJ2NsaWNrLm1wMzs&ipaddress=3307638242&linkcachekey=24f64ae20&linkoid=1386450004&mode=101&sharelink_id=10408912600004&timestamp=1631680098834&uagent=fa279be41d2212716951c01a844d17a9daa8a7a4&signature=3a38b2fc4c09cb8cffc2b7a9d2dff510cd1397db&cachekey=60:7b66c6a4486ea56004219ca8e079a4bc============================='
+  );
+  sound.volume = 0.2;
+  return sound.play();
+};

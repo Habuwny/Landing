@@ -1,0 +1,23 @@
+//.roundedButton {
+//  cursor: pointer;
+//  border-radius: 5px;
+//  border: none;
+//  font-family: 'Roboto Reular', sans-serif;
+//  letter-spacing: map_get($spacing, 'small');
+//  font-weight: 400;
+//  &__small {
+//    //padding: 3px 10px 3px 10px;
+//    //width: 100px;
+//    padding: 10px 15px;
+//    width: 100%;
+//
+//  }
+//}
+.customBTN {
+  font-size: map_get($button, 'small');
+  cursor: pointer;
+    font-family: 'Roboto Reular', sans-serif;
+  letter-spacing: map_get($spacing, 'small');
+  font-weight: 400;
+  color: #ECEFF6;
+}

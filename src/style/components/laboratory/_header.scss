@@ -1,0 +1,10 @@
+.laboratoryHeader{
+  &__p {
+    width: 52%;
+    margin: 0 auto;
+    @include respond(tab-land) {
+      width: 80%;
+    }
+  }
+
+}

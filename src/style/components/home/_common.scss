@@ -1,0 +1,19 @@
+ #BtnBigBox, #BtnSmallBox {
+  visibility: hidden;
+  cursor: pointer;
+}
+ .intro__common  {
+   position: absolute;
+   height: 100vh;
+   width: 100vw;
+   top: 0;
+   z-index: -1;
+   cursor: pointer;
+ }
+ .intro__themes{
+   position: absolute;
+   top: 0;
+   //left: 0;
+   height: 100vh;
+   width: 100vw;
+ }

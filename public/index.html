@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./favicon.ico">
+    <title>Habuwny</title>
+    <style>
+      @keyframes characterAnime {
+        0% {
+          opacity: 0.5;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.5;
+        }
+      }
+
+      @keyframes rightTopWingAnime {
+        0% {
+          transform: translate(-70px, 70px);
+        }
+        50% {
+          transform: translate(0px, 0px);
+        }
+        100% {
+          transform: translate(-70px, 70px);
+        }
+      }
+
+      @keyframes rightBottomWingAnime {
+        0% {
+          transform: translate(-70px, -70px);
+        }
+        50% {
+          transform: translate(0px, 0px);
+        }
+        100% {
+          transform: translate(-70px, -70px);
+        }
+      }
+
+      @keyframes leftBottomWingAnime {
+        0% {
+          transform: translate(70px, -70px);
+        }
+        50% {
+          transform: translate(0px, 0px);
+        }
+        100% {
+          transform: translate(70px, -70px);
+        }
+      }
+
+      @keyframes leftTopWingAnime {
+        0% {
+          transform: translate(70px, 70px);
+        }
+        50% {
+          transform: translate(0px, 0px);
+        }
+        100% {
+          transform: translate(70px, 70px);
+        }
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0">
+    <div id="root">
+      <div
+        class="Spinner"
+        style="
+          display: flex;
+          padding: 0;
+          margin: 0;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          height: 100vh;
+          width: 100vw;
+          background-color: #000c1a;
+        "
+      >
+        <svg
+          id="SpinnerBG"
+          width="100%"
+          height="100%"
+          viewBox="0 0 2448 2124"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xml:space="preserve"
+          style="
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+            stroke-linejoin: round;
+            stroke-miterlimit: 2;
+            width: 200px;
+            height: 200px;
+          "
+        >
+          <g>
+            <g id="rightWings">
+              <g
+                style="
+                  animation: rightBottomWingAnime;
+                  animation-iteration-count: infinite;
+                  animation-duration: 5s;
+                  animation-fill-mode: forwards;
+                "
+                id="rightBottomWing"
+              >
+                <path
+                  d="M1865.79,1786.86l435.151,-651.287l123.868,82.761l-559.019,568.526Z"
+                  style="fill: #61bb43"
+                />
+                <path
+                  d="M1645.83,299.082l778.976,919.25l-110.96,83.535l-668.016,-1002.78Z"
+                  style="fill: #61bb43"
+                />
+              </g>
+              <g
+                id="rightTopWing"
+                style="
+                  animation: rightTopWingAnime;
+                  animation-iteration-count: infinite;
+                  animation-duration: 5s;
+                  animation-fill-mode: forwards;
+                "
+              >
+                <path
+                  d="M1888.01,0l435.151,651.287l123.868,-82.761l-559.019,-568.526Z"
+                  style="fill: #61bb43"
+                />
+                <path
+                  d="M1729.26,1536.32l717.776,-967.792l-116.139,-76.17l-601.637,1043.96Z"
+                  style="fill: #61bb43"
+                />
+              </g>
+            </g>
+            <g id="leftWings">
+              <g
+                id="leftBottomWing"
+                style="
+                  animation: leftBottomWingAnime;
+                  animation-iteration-count: infinite;
+                  animation-duration: 5s;
+                  animation-fill-mode: forwards;
+                "
+              >
+                <path
+                  d="M581.241,1786.86l-435.151,-651.287l-123.868,82.761l559.019,568.526Z"
+                  style="fill: #61bb43"
+                />
+                <path
+                  d="M801.198,299.082l-778.976,919.25l110.96,83.535l668.016,-1002.78Z"
+                  style="fill: #61bb43"
+                />
+              </g>
+              <g
+                id="leftTopWing"
+                style="
+                  animation: leftTopWingAnime;
+                  animation-iteration-count: infinite;
+                  animation-duration: 5s;
+                  animation-fill-mode: forwards;
+                "
+              >
+                <path
+                  d="M559.019,0l-435.151,651.287l-123.868,-82.761l559.019,-568.526Z"
+                  style="fill: #61bb43"
+                />
+                <path
+                  d="M717.776,1536.32l-717.776,-967.792l116.139,-76.17l601.637,1043.96Z"
+                  style="fill: #61bb43"
+                />
+              </g>
+            </g>
+            <path
+              id="hCharacter"
+              d="M1545.54,471.136l425,466.667l-420.833,775l173.331,-651.902l-248.611,-0l-0,784.29l-165.278,278.568l0,-1898.46l164.584,164.583l-0,492.362l214.583,-0l-142.776,-411.106Z"
+              style="
+                fill: #9e6daf;
+                animation: characterAnime;
+                animation-iteration-count: infinite;
+                animation-duration: 5s;
+                animation-fill-mode: forwards;
+              "
+            />
+            <path
+              id="aCharacter"
+              d="M1139.71,2111.26l-0,-1898.46l-677.778,722.779l339.27,575l-83.422,-450.406l319.152,0l102.778,1051.09Zm-152.778,-1485.91l27.778,255.556l-261.111,-0l233.333,-255.556Z"
+              style="
+                fill: #833a94;
+                animation: characterAnime;
+                animation-iteration-count: infinite;
+                animation-duration: 5s;
+                animation-fill-mode: forwards;
+              "
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>

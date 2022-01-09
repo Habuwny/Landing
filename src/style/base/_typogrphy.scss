@@ -1,0 +1,12 @@
+.heading-primary {
+  font-size: map-get($heading, 'primary');
+  font-family: "Roboto Black", sans-serif;
+  letter-spacing: map_get($spacing, 'medium');
+}
+.paragraph-primary {
+  font-size: map-get($paragraph, 'secondary');
+  font-family: "Roboto Reular", sans-serif;
+  font-weight: bold;
+  letter-spacing: map_get($spacing, 'small');
+}
+

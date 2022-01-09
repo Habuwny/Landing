@@ -1,0 +1,33 @@
+.laboratoryCells {
+  display: grid;
+  width: 87%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(300px, auto) ;
+  grid-column-gap: 90px;
+  grid-row-gap: 70px;
+  align-items: stretch;
+  margin: 50px auto;
+
+  @media (max-width: 81.25em) {
+    width: 100%;
+  }
+  @media (max-width: 1100px) {
+    grid-column-gap: 20px;
+  }
+  @media (max-width:62.5em ) {
+    grid-column-gap: 50px;
+  }
+   @media (max-width:53.125em ) {
+    grid-column-gap: 20px;
+  }
+ @media (max-width:50em ) {
+   grid-template-columns: repeat(1, 1fr);
+   width: 70%;
+ }
+  @include respond(phone) {
+    width: 80%;
+  }
+
+
+
+}

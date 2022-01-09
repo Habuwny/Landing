@@ -1,0 +1,56 @@
+.home__landing {
+  //background-color: #3d141b;
+  height: 90%;
+  width: 90%;
+  display: grid;
+  grid-template-rows: 0.7fr 0.9fr 0.8fr;
+
+  &__show {
+    //background-color: #9e6daf;
+  }
+  &__bio {
+    //background-color: #000c1a;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &-hello {
+      color: #fff;
+      //background-color: #ffca0a;
+      line-height: 100%;
+      font-family: "Cairo Black", sans-serif;
+      font-size: map_get($heading, "primary");
+      @include respond(tab-land) {
+        margin-bottom: 1.3rem;
+      }
+      @include respond(phone) {
+        margin-bottom: 3rem;
+      }
+    }
+    &-info {
+      color: #ccc;
+      //background-color: #0af1da;
+      font-family: "Roboto Bold", sans-serif;
+      font-size: map_get($heading, "secondary");
+    }
+  }
+  &__bottom {
+    //background-color: #8dc743;
+    position: relative;
+    &-btn {
+      cursor: pointer;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: "Roboto Bold", sans-serif;
+      font-size: map_get($heading, "secondary");
+      padding: 3rem 3.5rem;
+      @include respond(phone) {
+        padding: 3rem 2rem;
+        font-size: map_get($paragraph, 'primary');
+      }
+    }
+    //margin:  auto;
+  }
+}

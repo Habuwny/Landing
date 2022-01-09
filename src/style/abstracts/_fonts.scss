@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Cairo Light";
+  font-weight: 300;
+  src: url("../../infra/fonts/Cairo-Light.woff2") format("woff2"),
+    url("../../infra/fonts/Cairo-Light.woff") format("woff"),
+    url("../../infra/fonts/Cairo-Light.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Cairo Reular";
+  font-weight: 400;
+  src: url("../../infra/fonts/Cairo-Regular.woff2") format("woff2"),
+    url("../../infra/fonts/Cairo-Regular.woff") format("woff"),
+    url("../../infra/fonts/Cairo-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Cairo SemiBold";
+  font-weight: 600;
+  src: url("../../infra/fonts/Cairo-SemiBold.woff2") format("woff2"),
+    url("../../infra/fonts/Cairo-SemiBold.woff") format("woff"),
+    url("../../infra/fonts/Cairo-SemiBold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Cairo Bold";
+  font-weight: 700;
+  src: url("../../infra/fonts/Cairo-Bold.woff2") format("woff2"),
+    url("../../infra/fonts/Cairo-Bold.woff") format("woff"),
+    url("../../infra/fonts/Cairo-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Roboto Light";
+  font-weight: 300;
+  src: url("../../infra/fonts/Roboto-Light.woff2") format("woff2"),
+    url("../../infra/fonts/Roboto-Light.woff") format("woff"),
+    url("../../infra/fonts/Roboto-Light.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto Reular";
+  font-weight: 400;
+  src: url("../../infra/fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../../infra/fonts/Roboto-Regular.woff") format("woff"),
+    url("../../infra/fonts/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto Medium";
+  font-weight: 500;
+  src: url("../../infra/fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../../infra/fonts/Roboto-Medium.woff") format("woff"),
+    url("../../infra/fonts/Roboto-Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  font-weight: 700;
+  src: url("../../infra/fonts/Roboto-Bold.ttf") format("ttf"),
+    url("../../infra/fonts/Roboto-Bold.woff") format("woff"),
+    url("../../infra/fonts/Roboto-Bold.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Roboto Black";
+  font-weight: 900;
+  src: url("../../infra/fonts/Roboto-Black.woff2") format("woff2"),
+    url("../../infra/fonts/Roboto-Black.woff") format("woff"),
+    url("../../infra/fonts/Roboto-Black.ttf") format("ttf");
+}

@@ -1,0 +1,54 @@
+//.laboratoryCategory {
+//  display: grid;
+//  grid-template-columns: repeat(5, 1fr);
+//  grid-column-gap: 5px;
+//  margin-top: 20px;
+//  @media (max-width: 50em) {
+//    grid-template-columns: repeat(4, 1fr);
+//    grid-row-gap: 5px;
+//  }
+//  @include respond(phone) {
+//    grid-template-columns: repeat(3, 1fr);
+//  }
+//  @media (max-width: 21.875em) {
+//    grid-template-columns: repeat(2, 1fr);
+//  }
+//  &__front-end,
+//  &__back-end,
+//  &__tools {
+//    position: relative;
+//  }
+//  &__BtnList{
+//    //opacity: 0;
+//    transform-origin: top;
+//    overflow: hidden;
+//    display: grid;
+//    border-radius: 0.5rem;
+//    grid-template-columns: 40% 40%;
+//    justify-content: center;
+//    grid-column-gap: 2rem;
+//    grid-row-gap: 0.1rem;
+//    position: absolute;
+//    width: 100%;
+//    background-color: #0049a4;
+//    left: 0;
+//    top: 0;
+//    transform: scaleY(0);
+//    //margin-top: 4.5rem;
+//    margin-bottom: -26px;
+//
+//    span {
+//      transform: scale(0);
+//      transform-origin: center;
+//      margin-top: 1rem;
+//      border-radius: 0.3rem;
+//      margin-bottom: 1rem;
+//      width: 100%;
+//      cursor: pointer;
+//      //padding: 1rem 1rem;
+//      background: #8dc743;
+//      font-family: "Cairo Bold", sans-serif;
+//      font-size: map_get($paragraph, "tertiary");
+//    }
+//  }
+//}
