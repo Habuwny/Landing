@@ -16,8 +16,11 @@
 .customBTN {
   font-size: map_get($button, 'small');
   cursor: pointer;
-    font-family: 'Roboto Reular', sans-serif;
+  font-family: 'Roboto Reular', sans-serif;
   letter-spacing: map_get($spacing, 'small');
-  font-weight: 400;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ECEFF6;
 }

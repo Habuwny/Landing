@@ -4,6 +4,8 @@ import { Sides } from "./sides";
 import { useLocation } from "react-router-dom";
 import gsap from "gsap";
 import { useTypedSelector } from "../../hooks";
+import { List } from "./List";
+import { ListMenu } from "./ListMenu";
 
 export const Controllers = () => {
   const tls = useTypedSelector((state) => state.tls);
@@ -27,6 +29,15 @@ export const Controllers = () => {
       </div>
       <div className={"logo"}>
         <Logo />
+      </div>
+      <div className={"absolute z-50  right-5 top-5"}>
+        <List />
+      </div>
+      <div
+        className={"z-40 ListMenu absolute bg-gray-900 w-screen h-screen "}
+        style={{ top: "-100vh" }}
+      >
+        <ListMenu />
       </div>
     </div>
   );
