@@ -1,7 +1,7 @@
 import { LaboratoryCell } from "./cell";
 import { useEffect, useState } from "react";
 import { useTypedSelector } from "../../hooks";
-import { locCellsData } from "../../helpers/components/laboratory";
+import { locCellsData } from "../../helpers";
 import { randomId } from "../../tools";
 
 export const LaboratoryCells = () => {

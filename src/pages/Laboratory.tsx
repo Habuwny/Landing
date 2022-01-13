@@ -11,7 +11,7 @@ export const Laboratory = () => {
     laboratorySetts(theme);
   }, []); //eslint-disable-line react-hooks/exhaustive-deps
   return (
-    <div className={"page__laboratory"}>
+    <div className={"page__laboratory bg-gray-900"}>
       <LaboratoryComponents />
     </div>
   );

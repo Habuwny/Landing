@@ -46,12 +46,12 @@ export const ListMenu = () => {
         to={"/"}
         onClick={onLikClick}
         className={
-          "relative flex justify-center items-center cursor-pointer h-32 bg-gray-600  w-6/12 text-center rounded-xl"
+          "overflow-hidden relative flex justify-center items-center cursor-pointer h-32 bg-gray-600  w-6/12 text-center rounded-xl"
         }
       >
         <span
           className={
-            "menu-landing-link-top menu-link-top absolute rounded-t-xl w-full left-0 top-0 z-40 translate-x-full bg-gray-700 hover:bg-green-500 h-2/4 "
+            "menu-landing-link-top menu-link-top absolute rounded-t-xl w-full left-0 top-0 z-40 translate-x-full bg-gray-700  h-2/4 "
           }
         ></span>
         <span
@@ -68,21 +68,22 @@ export const ListMenu = () => {
           Landing
         </span>
 
-        {/*<span>Landing</span>*/}
         <span
           className={
             "rounded-b-xl menu-landing-link-bottom menu-link-bottom absolute w-full bottom-0 z-40  bg-gray-800  h-2/4 "
           }
         ></span>
       </Link>
-      <div
+      <Link
+        to={"/portfolio"}
+        onClick={onLikClick}
         className={
-          "relative flex justify-center items-center cursor-pointer h-32 bg-gray-600  w-6/12 text-center rounded-xl"
+          "overflow-hidden relative flex justify-center items-center cursor-pointer h-32 bg-gray-600  w-6/12 text-center rounded-xl"
         }
       >
         <span
           className={
-            "menu-portfolio-link-top menu-link-top absolute rounded-t-xl w-full left-0 top-0 z-40 translate-x-full bg-gray-700 hover:bg-green-500 h-2/4 "
+            "menu-portfolio-link-top menu-link-top absolute rounded-t-xl w-full left-0 top-0 z-40 translate-x-full bg-gray-700  h-2/4 "
           }
         ></span>
         <span
@@ -110,18 +111,18 @@ export const ListMenu = () => {
             "rounded-b-xl menu-portfolio-link-bottom menu-link-bottom absolute w-full bottom-0 z-40  bg-gray-800  h-2/4 "
           }
         ></span>
-      </div>
+      </Link>
 
       <Link
         to={"/laboratory"}
         onClick={onLikClick}
         className={
-          "relative flex justify-center items-center cursor-pointer h-32 bg-gray-600  w-6/12 text-center rounded-xl"
+          "overflow-hidden relative flex justify-center items-center cursor-pointer h-32 bg-gray-600  w-6/12 text-center rounded-xl"
         }
       >
         <span
           className={
-            "menu-Laboratory-link-top menu-link-top absolute rounded-t-xl w-full left-0 top-0 z-40 translate-x-full bg-gray-700 hover:bg-green-500 h-2/4 "
+            "menu-Laboratory-link-top menu-link-top absolute rounded-t-xl w-full left-0 top-0 z-40 translate-x-full bg-gray-700  h-2/4 "
           }
         ></span>
         <span
@@ -153,12 +154,12 @@ export const ListMenu = () => {
 
       <div
         className={
-          "relative flex justify-center items-center cursor-pointer h-32 bg-gray-600  w-6/12 text-center rounded-xl"
+          "overflow-hidden relative flex justify-center items-center cursor-pointer h-32 bg-gray-600  w-6/12 text-center rounded-xl"
         }
       >
         <span
           className={
-            "menu-Contact-link-top menu-link-top absolute rounded-t-xl w-full left-0 top-0 z-40 translate-x-full bg-gray-700 hover:bg-green-500 h-2/4 "
+            "menu-Contact-link-top menu-link-top absolute rounded-t-xl w-full left-0 top-0 z-40 translate-x-full bg-gray-700  h-2/4 "
           }
         ></span>
         <span

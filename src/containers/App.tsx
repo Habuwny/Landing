@@ -1,8 +1,7 @@
 import React from "react";
-import { Home } from "../pages/Home";
+import { Home, Laboratory, Portfolio, Project } from "../pages";
 import { Switch, Route } from "react-router-dom";
 import { Controllers } from "../components/controllers";
-import { Laboratory } from "../pages/Laboratory";
 import { GlobalSetts } from "./GlobalSetts";
 
 export const App = () => {
@@ -12,6 +11,8 @@ export const App = () => {
       <Switch>
         <Route exact path={"/"} component={Home} />
         <Route exact path={"/laboratory"} component={Laboratory} />
+        <Route exact path={"/portfolio"} component={Portfolio} />
+        <Route path={"/portfolio/:project"} component={Project} />
       </Switch>
     </GlobalSetts>
   );

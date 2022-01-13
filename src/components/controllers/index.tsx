@@ -34,8 +34,8 @@ export const Controllers = () => {
         <List />
       </div>
       <div
-        className={"z-40 ListMenu absolute bg-gray-900 w-screen h-screen "}
-        style={{ top: "-100vh" }}
+        className={"z-40 ListMenu absolute w-screen h-screen "}
+        style={{ top: "-100vh", backgroundColor: "#14213d" }}
       >
         <ListMenu />
       </div>
